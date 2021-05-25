@@ -1,0 +1,250 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-image: url("BackgroundImage.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Six{
+    margin:10px;
+    height:20vh;
+    background-color: black;
+    text-align: center;
+    box-sizing: content-box;
+}
+.Six ul{
+    display: inline-flex;
+    list-style: none;
+    
+}
+.Six ul li{
+    width:auto;
+    height:2vh;
+    margin:10px;
+    padding:5px 30px 10vh 10px;
+    background-color: rgb(145, 203, 250);
+    border: 2px solid white;
+    font-size:5vh;
+    box-sizing: content-box; 
+}
+
+.Six ul li a{
+    text-decoration: none;
+    color:black;
+    box-sizing: content-box;
+}
+.actives, .Six ul li:hover{
+    background-color:rgb(199, 195, 195) ;
+    
+}
+.Seven{
+    display: none;
+    
+}
+.Six ul li:hover .Seven{
+    display:block;
+    position:absolute;
+    width:15vw;
+    height:45vh;
+    background-color:white;
+    /* margin-top: 15px; */
+    margin-left:2px;
+}
+ul{
+    padding-left: 2px;
+}
+.Six ul li:hover .Seven ul{
+    display:block;
+    
+    margin:5px 2px 2px 2px;
+}
+.Seven ul li{
+    font-size: 2vh;
+}
+
+.Six ul li:hover .Seven ul li{
+    font-size: 2vh;
+    width:4vw;
+    padding:10px;
+    background:transparent;
+    border-radius: 0;
+    text-align:center;
+}
+.Six ul li:hover .Seven ul li a:hover{
+    color:red;
+    
+}
+.One{
+    padding: 0vh 2vh 2vh 2vh;
+}
+.Three{
+    display: inline-block;
+    padding:0px 20px 0px 20px;
+    height:15vh;
+    width:180px;
+    vertical-align: 20%;
+}
+#Two{
+    margin:0px 1px 4px 1px;
+    height:25vh;
+    background-color: rgb(12, 11, 11);
+}
+.Four{
+    display:inline-block;
+}
+.Four h1{
+     color:red;
+     padding-left: 20px;
+     font-size: 4vh;
+}
+.Four p{
+    color:white;
+    padding-left: 20px;
+    font-size: 2.8vh;
+}
+.Five{
+    background-color: none;
+    border:3px solid black;
+}
+.Nine{
+    display:inline-block;
+    margin-left: 4px;
+    padding:10px;
+    height:180px;
+	width:450px;
+	background-color:rgb(71, 156, 224);
+	overflow-y:scroll;
+    
+}
+.Nine a{
+    color:black;
+    font-size: 20px;
+	text-decoration: none;
+}
+.Eight{
+    text-align: center;
+}
+.Ten{
+    background-color: black;
+    height:50vh;
+    margin:2px;
+    padding:20px;
+    border:2px solid white;
+    color:white
+}
+
+#Address{
+  padding-right: 100px;
+  display: inline-block;
+  height:17px;
+  font-size:4vh ;
+}
+#Contacts{
+  display: inline-block;
+  width:265px;
+  height:17px;
+  font-size: 4vh;
+}
+#Contacts h6{
+    font-size: 5vh;
+}
+.carousel-item{
+    width:100vw;
+    background: no-repeat scroll center;
+    background-size: cover;    
+}
+.carousel-item::before{
+   content:"";
+   display: block;
+   background: black;
+}
+#carouselExampleIndicators{
+    z-index: -1;
+}
+@media screen and (max-width: 1318px){ 
+    /* 1280 */
+    .Seven ul li{
+        font-size: 2vw;
+    }
+    .Six ul li{
+        font-size:2vw;
+    }
+}
+@media screen and (max-width:800px) {
+    .Six ul li:hover .Seven{
+        width:20vw;
+        height:38vw;
+    }   
+    .Six ul li{
+        width:5vw;
+        font-size: 1.5vw;
+        height:0.5vw;
+    }
+    .Six ul li:hover .Seven ul li{
+        font-size: 1.3vw;
+    }
+    .Four h1{
+      font-size: 4vw;
+   }
+   .Four p{
+       font-size: 2.8vw;
+   }
+   .Ten{
+    height:80vw;         
+  }
+  #Address{
+   font-size:4vw;
+  }
+  #Contacts{
+    font-size: 4vw;
+  }
+  #Contacts h6{
+      font-size: 5vw;
+  }
+}
+@media screen and (max-width:640px){
+    .Six ul li:hover .Seven{
+        width:15vw;
+    }   
+    .Six ul li:hover .Seven ul li{
+        font-size: 1.5vw;
+        padding-left:0px;
+        width:2vw;
+    }
+}
+@media screen and (max-width:674px){
+    .Ten{
+        height:80vw;         
+      }
+      #Address{
+       font-size:4vw;
+      }
+      #Contacts{
+        font-size: 4vw;
+      }
+      #Contacts h6{
+          font-size: 5vw;
+      }
+}
+@media screen and (max-width:508px){
+    .Six ul li{
+        width:3vw;
+        margin:2px;
+    }
+    .Three{
+        padding:0px 5px 0px 20px;
+        height:15vh;
+        width:40vw;
+    }
+    #Two{
+        height:30vh;
+    }
+    .Nine{
+        width:50vw;
+    }
+    .Nine a{
+        font-size: 4vw;
+    }
+}

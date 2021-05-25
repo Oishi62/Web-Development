@@ -1,0 +1,97 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color:#fac7cf;
+}
+header{
+    height:12vh;
+    background-color:white;
+    margin:2px 0px 2px 0px;
+    border:2px solid black;
+    
+}
+.Heading{
+    text-align: center;
+    padding-top: 2vh;
+    font-size:4vh ;
+}
+footer{
+    background-color: black;
+    height:30vh;
+    margin:2px;
+    padding:20px;
+    border:2px solid white;
+    color:white
+}
+.SubHeading{
+    margin:2px;
+    padding:20px;
+    font-size: 5vh;
+}
+h5{
+    margin:2px;
+    padding:10px;
+    color:red;
+    font-size: 4vh;
+}
+.Content{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 3.9vh;
+    text-align: justify;
+}
+#Address{
+    padding-right: 100px;;
+    display: inline-block;
+    width:265px;
+    height:17px;
+    font-size:4vh ;
+}
+#Contact{
+    display: inline-block;
+    width:265px;
+    height:17px;
+    font-size: 4vh;
+}
+@media screen and (max-width: 1292px) {  
+    .Heading {
+      font-size:4vw;
+    }
+    header{
+        height:12vw;
+        }
+    .SubHeading{
+        font-size:5vw;
+    }
+    .Content{
+        font-size:3.9vw;
+    }
+    #Address{
+        font-size:3vw;
+       }
+       #Contact{
+        font-size:3vw;
+    }
+    h6{
+        font-size: 3.5vw;
+    }
+    h5{
+        font-size: 4vw;
+    }
+} 
+@media screen and (min-width:944px) {
+      .footer{
+        height:30vw;         
+      }
+      #Address{
+        font-size:2vw;
+       }
+       #Contact{
+        font-size:2vw;
+    }
+    h6{
+        font-size: 2.5vw;
+    }
+}

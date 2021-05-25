@@ -1,0 +1,107 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color:rgb(250, 199, 207);
+}
+header{
+    height:10vh;
+    background-color:white;
+    margin:2px 0px 2px 0px;
+    border:2px solid black;
+    
+}
+.Heading{
+    text-align: center;
+    padding-top: 2vh;
+    font-size:4vh ;
+}
+.SubHeading{
+    padding:20px;
+    font-size:5vh ;
+}
+.Content{
+    padding:10px;
+    font-size:3.9vh;   
+    
+}
+#Faculty{
+    padding:20px;
+    font-size: 20px;
+}
+.Image{
+    display: inline-block;
+    padding-left:20px;
+    height:250px;
+    width:280px;
+}
+.Description{
+    display: inline-block;
+    padding: 20px 0px 0px 50px;
+    height:250px;
+    width:280px;
+    font-size: 15px;
+}
+footer{
+      background-color: black;
+      height:30vh;
+      margin:2px;
+      padding:20px;
+      border:2px solid white;
+      color:white
+}
+
+#Address{
+    padding-right: 100px;;
+    display: inline-block;
+    width:265px;
+    height:17px;
+    font-size:4vh ;
+}
+#Contact{
+    display: inline-block;
+    width:265px;
+    height:17px;
+    font-size: 4vh;
+}
+h6{
+    font-size: 5vh;
+}
+@media screen and (max-width: 1292px) {  
+    .Heading {
+      font-size:4vw;
+    }
+    header{
+        height:12vw;
+        }
+    .SubHeading{
+        font-size:5vw;
+    }
+    .Content{
+        font-size:3.9vw;
+    }
+    #Address{
+        font-size:3vw;
+       }
+       #Contact{
+        font-size:3vw;
+    }
+    h6{
+        font-size: 3.5vw;
+    }
+} 
+@media screen and (min-width:944px) {
+      .footer{
+        height:30vw;         
+      }
+      #Address{
+        font-size:2vw;
+       }
+       #Contact{
+        font-size:2vw;
+    }
+    h6{
+        font-size: 2.5vw;
+    }
+}
